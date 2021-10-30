@@ -34,7 +34,7 @@ cfg.train.batch_sizes = [128, 128, 128, 64, 32, 16, 8, 4, 2]
 # Options for Dataset
 # ---------------------------------------------------------------------------- #
 cfg.dataset = CN()
-cfg.dataset.data_dir = "ProgressiveGAN/data/celeba/img_align_celeba"
+cfg.dataset.data_dir = "data/celeba/img_align_celeba"
 
 
 cfg.model = CN()
